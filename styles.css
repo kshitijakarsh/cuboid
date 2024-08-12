@@ -78,6 +78,7 @@ ul{
     top: -500px;
     color: #ff764d;
     text-align: center;
+    text-shadow: 2px 2px 5px;
     font-size: 96px;
 }
 
@@ -247,6 +248,11 @@ ul{
     right: 70px;
 }
 
+.content6{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .content6 h1{
     width: 760px;
     font-size: 24px;
@@ -262,6 +268,33 @@ ul{
     left: 25%;
 }
 
-hr{
-    width: 100%;
+.content7{
+    margin-top: 200px;
+    background-color: rgb(243, 243, 243);
+    height: 600px;
+}
+
+.content7 h1{
+    margin-top: 100px;
+    font-size: 48px;
+    position: absolute;
+    left: 8%;
+}
+
+.content7 .logos{
+    position: relative;
+    top: 400px;
+    left: 6%;
+}
+
+.content7 .logos img{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.content7 .buttons{
+    position: relative;
+    top: 220px;
+    left: 7.8%;
 }
