@@ -9,25 +9,19 @@
 <body>
     <nav class="navbar">
         <ul>
-            <li id="logo"><img src="bxs-cuboid.png" alt="logo"></li>
-            <li id="notif"> Live </li>
-            <li id="notif"> Push </li>
-            <li id="notif"> Note </li>
-            <li id="notif"> Link </li>
-            <li id="notif"> Shop </li>
-            <li id="notif"> Packs </li>
-            <li id="notif"> Help </li>
-            <li id="more"> More + </li>
+            <li id="logo"><img src="logo.png" alt="logo"></li>
+            <li id="explore"> Explore </li>
+            <li id="read"> Read </li>
+            <li id="connect"> Connect </li>
+            <li id="workshop"> Workshops </li>
+            <li id="shop"> Shop </li>
         </ul>
     </nav>
     <hr>
 
-    <div class="stick">
-        <ul>
-            <li id="sticky"> About </li>
-            <li id="sticky"> Live </li>
-            <li id="sticky"> Push </li>
-        </ul>
+    <div class="quote-container">
+        <div class="quote">Loading...</div>
+        <div class="author"></div>
     </div>
 
     <div class="landing-photo">
@@ -95,6 +89,25 @@
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAehJREFUaEPtWAlOBDEM674MeBnwMuBlIMN4FY06bdyEVit1pNUe0xyO3WS2t/Lg1+3B8y8bwGoGNwObgWAFtoQGCvhcSnk97PD5/fj8WUrBS7paDMC57LARnYnj/eoCmDdzE2u53v5+X9ICQIOqoVSmv6RY9Z6pLRqTPwNzAfg+Vl0a9zI57ivJ11w2418xAOQfxlsEBPy0ZNOqA9hAbLD3dZLXr50XAIOoQKLVt+CquaoA4FABkQGALFQbyggAhY2IfBAHSb+0NNbqQt7g7OO1buX1cZUjkm+28t4csBvZ03QIhtXD5hvdwPARAgAHGRr2AE9ngBMQ9NnRH0lmxLb7rBbZxCMJqTbDABCIk1gNmrW+24Fagwz3oh0kCsQ1b7K7UDRpa9/tQD0GVnehrv49AFaBcMnHC4Ag8O59po9KyVX9EQBPwcnqAeauvgJgZkt1V18BMOuRQqq+AmDGZnYNrrMGJbr++eHO1fejAGgPSWVuaFk6TERlwBbAc86T3nUyGciYCUOysSAUBrIqjvjNP+oe2noSosa5LvK38JzPsN5rwHpHixkyYdy0qqsSigwxJk3ZKOpwrVX3AKWEFoqL3+3RB44A+T3zdLsKSAHgqsjsRRvA7IpnDbLVed/jbwmtpmIzsJqBH2ISVjEWJgWZAAAAAElFTkSuQmCC"/>
         </div>
     </div>
+
+
+    <script>
+        async function fetchQuote() {
+            try {
+                const response = await fetch('https://api.quotable.io/random');
+                const data = await response.json();
+                document.querySelector('.quote').innerText = `"${data.content}"`;
+                document.querySelector('.author').innerText = `- ${data.author}`;
+            } catch (error) {
+                document.querySelector('.quote').innerText = 'An error occurred. Please try again later.';
+                console.error('Error fetching quote:', error);
+            }
+        }
+    
+        // Fetch a quote when the page loads
+        fetchQuote();
+    </script>
+
 
 </body>
 </html>
