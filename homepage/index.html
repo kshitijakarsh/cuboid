@@ -9,12 +9,12 @@
 <body>
     <nav class="navbar">
         <ul>
-            <li id="logo"><img src="logo.png" alt="logo"></li>
-            <li id="explore"> Explore </li>
-            <li id="read"> Read </li>
-            <li id="connect"> Connect </li>
-            <li id="workshop"> Workshops </li>
-            <li id="shop"> Shop </li>
+            <li id="logo"><img src="../logo.png" alt="logo"></li>
+            <li id="explore"> <a href="../about-page/index.html" > Explore </a> </li>
+            <li id="read"> <a href="read-page/index.html"></a>Read </li>
+            <li id="connect"> <a href="read-page/index.html"> </a>Connect </li>
+            <li id="workshop"> <a href="read-page/index.html"></a> Workshops </li>
+            <li id="shop"> <a href="read-page/index.html"> </a>Shop </li>
         </ul>
     </nav>
     <hr>
@@ -82,6 +82,11 @@
             <h4>About Cuboid</h4>
             <h4>Careers</h4>
         </div>
+
+        <div class="rotatebook">
+            <img src="rotate.png" alt="rotating book">
+        </div>
+
         <div class="logos">
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAfZJREFUaEPtmW1uwzAIhtOTrTvZtpOtO9kmJltybD5eDE6VKvkzqWswDy8QSG/bya/byf3fLoBnK5ipwL3AfDRQ9bNH+eyn/P3MAs8AIGfetm2rzqK+ERQBhWAiAHRwG23Uce57X7MgMwAU6e+It8q9bhAvQGbUJQ4XhAfgCOcrFAyBAhzpvAsCAch2vrZUpGuZSlgAGc6Tw+QIXdX5Nv+tpvAu3PdvwwL4DXYbM4LFvnWO6KcGEI0+6jwxWACiLQ3AMmqJY6nb3o+cxdqTDjky+ogCtX6oHnaXBEBPWqRLSCpohUd2aQTx2qcGAAMgkmoptErZITDcQdH00bpburJHA0SVHdKIA4hGSVPgAugLmVMgGqWVCgy2owBsa7OecN3/vU1j53O0Bi6Asp6iD7X0LpShgKfmhqGOSyFrPm9T+CUA6rLSg3G13KdKnYvQuh8CvmqYk+x60oWDggG8rQ2dciMA7FKzaqFZoYBroaGIRlTIBphaKdFNCcpVcHmXinlqqSdjnpbaHp6pgPpyAFm8Z1IpC8B8s4EAzNRDBoDpvDb2crnoUSIKADnvBfAoEQGAnZ8BQCFmAdT3oJ52h8wmWkp5AaaHQrSINSAOBAF4+o98PRQ9M+q0Kf3ySG88tFftiPK772Qo4D4084YLIDOaM7ZOr8AffiN4Mc93jwAAAAAASUVORK5CYII="/>
         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAWFJREFUaEPtmFkOwjAMRNuTAScDTgacDDoSQWnrNIvtLML9QSJp6jdjZ5unwZ958PgnA2jtoDlgDjAVsBRiCsh+/S8cOH9lwu8pIJnrk6vok3jh5f2HdqrPr8uRAwjqugxQGlwuTKj/fWm4hRqPAN5SEQiNc6HcCAGAGOr39CCVALF6KACkzKOnyL1Ydi5QAD2q7xiGB9gVNOUA0qf1zBPK4F0daABAJa0JoAqAE0WjlpIAuPP/1lVpkNX4VApJAyCfUVNuZefO0E0AXNASbjQFkAAxgFgOa+9wmzgguTWvDiBRuL7rUQDuVqL5QsYFwI5R6ySXtBJzAWJFzmkfHiBpO93ziWx4gKQTGXK0xzogr1dCq2aPaUTGGrtalF6ESmYgzDxQn7yhiwH4e3n38e31Ivf8HLpedP8XXy2WqFX9nRQHqgeV80EDyFFLo685oKFqzpjmQI5aGn3NAQ1Vc8b8ALZvQDGD0BclAAAAAElFTkSuQmCC"/>
@@ -94,18 +99,16 @@
     <script>
         async function fetchQuote() {
         try {
-            const response = await fetch('quotes.json');
+            const response = await fetch('../quotes.json');
             const quotes = await response.json();
             const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-            document.querySelector('.quote').innerText = `"${randomQuote.text}"`;
+            document.querySelector('.quote').innerText = `"${randomQuote.quote}"`;
             document.querySelector('.author').innerText = randomQuote.author ? `- ${randomQuote.author}` : '- Unknown';
         } catch (error) {
             document.querySelector('.quote').innerText = 'An error occurred. Please try again later.';
             console.error('Error fetching quote:', error);
         }
     }
-
-    // Fetch a quote when the page loads
     fetchQuote();
     </script>
 

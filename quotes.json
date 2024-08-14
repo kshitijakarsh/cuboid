@@ -1,66 +1,338 @@
 [
     {
-      "text": "Genius is one percent inspiration and ninety-nine percent perspiration.",
-      "author": "Thomas Edison"
+      "quote": "A room without books is like a body without a soul.",
+      "author": "Marcus Tullius Cicero"
     },
     {
-      "text": "You can observe a lot just by watching.",
-      "author": "Yogi Berra"
+      "quote": "So many books, so little time.",
+      "author": "Frank Zappa"
     },
     {
-      "text": "A house divided against itself cannot stand.",
+      "quote": "Good friends, good books, and a sleepy conscience: this is the ideal life.",
+      "author": "Mark Twain"
+    },
+    {
+      "quote": "Books are a uniquely portable magic.",
+      "author": "Stephen King"
+    },
+    {
+      "quote": "There is no friend as loyal as a book.",
+      "author": "Ernest Hemingway"
+    },
+    {
+      "quote": "A book is a dream that you hold in your hand.",
+      "author": "Neil Gaiman"
+    },
+    {
+      "quote": "Books are the quietest and most constant of friends; they are the most accessible and wisest of counselors, and the most patient of teachers.",
+      "author": "Charles W. Eliot"
+    },
+    {
+      "quote": "The only thing you absolutely have to know is the location of the library.",
+      "author": "Albert Einstein"
+    },
+    {
+      "quote": "Books serve to show a man that those original thoughts of his aren't very new after all.",
       "author": "Abraham Lincoln"
     },
     {
-      "text": "Difficulties increase the nearer we get to the goal.",
-      "author": "Johann Wolfgang von Goethe"
+      "quote": "A half-read book is a half-finished love affair.",
+      "author": "David Mitchell"
     },
     {
-      "text": "Fate is in your hands and no one elses",
-      "author": "Byron Pulsifer"
+      "quote": "A book is a gift you can open again and again.",
+      "author": "Garrison Keillor"
     },
     {
-      "text": "Be the chief but never the lord.",
-      "author": "Lao Tzu"
+      "quote": "The more that you read, the more things you will know. The more that you learn, the more places you'll go.",
+      "author": "Dr. Seuss"
     },
     {
-      "text": "Nothing happens unless first we dream.",
-      "author": "Carl Sandburg"
+      "quote": "Books can be dangerous. The best ones should be labeled 'This could change your life.'",
+      "author": "Helen Exley"
     },
     {
-      "text": "Well begun is half done.",
-      "author": "Aristotle"
+      "quote": "A great book should leave you with many experiences, and slightly exhausted at the end. You live several lives while reading.",
+      "author": "William Styron"
     },
     {
-      "text": "Life is a learning experience, only if you learn.",
-      "author": "Yogi Berra"
+      "quote": "There is no frigate like a book to take us lands away.",
+      "author": "Emily Dickinson"
     },
     {
-      "text": "Self-complacency is fatal to progress.",
-      "author": "Margaret Sangster"
+      "quote": "The person who deserves most pity is a lonesome one on a rainy day who doesn't know how to read.",
+      "author": "Benjamin Franklin"
     },
     {
-      "text": "Peace comes from within. Do not seek it without.",
-      "author": "Buddha, type.fit"
+      "quote": "Books are the mirrors of the soul.",
+      "author": "Virginia Woolf"
     },
     {
-      "text": "What you give is what you get.",
-      "author": "Byron Pulsifer"
+      "quote": "Books open your mind, broaden your mind, and strengthen you as nothing else can.",
+      "author": "William Feather"
     },
     {
-      "text": "We can only learn to love by loving.",
-      "author": "Iris Murdoch"
+      "quote": "A book is the only place in which you can examine a fragile thought without breaking it.",
+      "author": "Edward P. Morgan"
     },
     {
-      "text": "Life is change. Growth is optional. Choose wisely.",
-      "author": "Karen Clark"
+      "quote": "I have always imagined that Paradise will be a kind of library.",
+      "author": "Jorge Luis Borges"
     },
     {
-      "text": "You'll see it when you believe it.",
-      "author": "Wayne Dyer"
+      "quote": "A truly great book should be read in youth, again in maturity, and once more in old age.",
+      "author": "Robertson Davies"
     },
     {
-      "text": "Today is the tomorrow we worried about yesterday.",
-      "author":  "Unknown"
+      "quote": "Books are the plane, and the train, and the road. They are the destination and the journey. They are home.",
+      "author": "Anna Quindlen"
+    },
+    {
+      "quote": "Books have a unique way of stopping time in a particular moment and saying: Let’s not forget this.",
+      "author": "Dave Eggers"
+    },
+    {
+      "quote": "Books and doors are the same thing. You open them, and you go through into another world.",
+      "author": "Jeanette Winterson"
+    },
+    {
+      "quote": "Books are lighthouses erected in the great sea of time.",
+      "author": "E.P. Whipple"
+    },
+    {
+      "quote": "A book worth reading is worth buying.",
+      "author": "John Ruskin"
+    },
+    {
+      "quote": "Books are a form of political action. Books are knowledge. Books are reflection. Books change your mind.",
+      "author": "Toni Morrison"
+    },
+    {
+      "quote": "Books are not made for furniture, but there is nothing else that so beautifully furnishes a house.",
+      "author": "Henry Ward Beecher"
+    },
+    {
+      "quote": "Books are humanity in print.",
+      "author": "Barbara W. Tuchman"
+    },
+    {
+      "quote": "Books are no more threatened by Kindle than stairs by elevators.",
+      "author": "Stephen Fry"
+    },
+    {
+      "quote": "Books are a uniquely portable magic.",
+      "author": "Stephen King"
+    },
+    {
+      "quote": "Books are a guide in youth and an entertainment for age.",
+      "author": "Jeremy Collier"
+    },
+    {
+      "quote": "Books are the carriers of civilization. Without books, history is silent, literature dumb, science crippled, thought and speculation at a standstill.",
+      "author": "Barbara W. Tuchman"
+    },
+    {
+      "quote": "Books give a soul to the universe, wings to the mind, flight to the imagination, and life to everything.",
+      "author": "Plato"
+    },
+    {
+      "quote": "Books support us in our solitude and keep us from being a burden to ourselves.",
+      "author": "Jeremy Collier"
+    },
+    {
+      "quote": "Books were my pass to personal freedom. I learned to read at age three, and soon discovered there was a whole world to conquer that went beyond our farm in Mississippi.",
+      "author": "Oprah Winfrey"
+    },
+    {
+      "quote": "Books wash away from the soul the dust of everyday life.",
+      "author": "Mortimer J. Adler"
+    },
+    {
+      "quote": "Books are the perfect entertainment: no commercials, no batteries, hours of enjoyment for each dollar spent. What I wonder is why everybody doesn’t carry a book around for those inevitable dead spots in life.",
+      "author": "Stephen King"
+    },
+    {
+      "quote": "Books are my friends, my companions. They make me laugh and cry and find meaning in life.",
+      "author": "Christopher Paolini"
+    },
+    {
+      "quote": "Books were my pass to personal freedom.",
+      "author": "Oprah Winfrey"
+    },
+    {
+      "quote": "Books are the blessed chloroform of the mind.",
+      "author": "Robert Chambers"
+    },
+    {
+      "quote": "Books are the plane, and the train, and the road. They are the destination and the journey. They are home.",
+      "author": "Anna Quindlen"
+    },
+    {
+      "quote": "Books are a narcotic.",
+      "author": "Franz Kafka"
+    },
+    {
+      "quote": "Books are like mirrors: if a fool looks in, you cannot expect a genius to look out.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "quote": "Books are the treasured wealth of the world and the fit inheritance of generations and nations.",
+      "author": "Henry David Thoreau"
+    },
+    {
+      "quote": "Books are the greatest companions, both in your times of loneliness and your times of company.",
+      "author": "Yash Gupta"
+    },
+    {
+      "quote": "Books are the compasses and telescopes and sextants and charts which other men have prepared to help us navigate the dangerous seas of human life.",
+      "author": "Jesse Lee Bennett"
+    },
+    {
+      "quote": "Books are a uniquely portable magic.",
+      "author": "Stephen King"
+    },
+    {
+      "quote": "Books are the building blocks of civilization.",
+      "author": "Victor Hugo"
+    },
+    {
+      "quote": "Books are the bees which carry the quickening pollen from one to another mind.",
+      "author": "James Russell Lowell"
+    },
+    {
+      "quote": "Books are a hard-bound drug with no danger of an overdose. I am the happy victim of books.",
+      "author": "Karl Lagerfeld"
+    },
+    {
+      "quote": "Books are the most wonderful friends in the world. When you meet someone and know you have a mutual love of books, you know you have something in common that will never run out.",
+      "author": "Jessica Lange"
+    },
+    {
+      "quote": "Books are the ultimate Dumpees: put them down and they’ll wait for you forever; pay attention to them and they always love you back.",
+      "author": "John Green"
+    },
+    {
+      "quote": "Books are the ultimate escape.",
+      "author": "Alexandra Bracken"
+    },
+    {
+      "quote": "Books are the flowers of the imagination.",
+      "author": "Louisa May Alcott"
+    },
+    {
+      "quote": "Books are the best weapon in the world. Arm yourself.",
+      "author": "Doctor Who"
+    },
+    {
+      "quote": "Books are the perfect antidote to the loneliness of the human soul.",
+      "author": "Emma Thompson"
+    },
+    {
+      "quote": "Books are the mirrors of the soul.",
+      "author": "Virginia Woolf"
+    },
+    {
+      "quote": "Books are the quietest and most constant of friends; they are the most accessible and wisest of counselors, and the most patient of teachers.",
+      "author": "Charles W. Eliot"
+    },
+    {
+      "quote": "Books are the bees which carry the quickening pollen from one to another mind.",
+      "author": "James Russell Lowell"
+    },
+    {
+      "quote": "Books are the foundation of any democracy.",
+      "author": "James Madison"
+    },
+    {
+      "quote": "Books are a uniquely portable magic.",
+      "author": "Stephen King"
+    },
+    {
+      "quote": "Books are the compasses and telescopes and sextants and charts which other men have prepared to help us navigate the dangerous seas of human life.",
+      "author": "Jesse Lee Bennett"
+    },
+    {
+      "quote": "Books are the treasured wealth of the world and the fit inheritance of generations and nations.",
+      "author": "Henry David Thoreau"
+    },
+    {
+      "quote": "Books are the training weights of the mind.",
+      "author": "Epictetus"
+    },
+    {
+      "quote": "Books are like a mirror. If an ass looks in, you can’t expect an angel to look out.",
+      "author": "Arthur Schopenhauer"
+    },
+    {
+      "quote": "Books are the ultimate Dumpees: put them down and they’ll wait for you forever; pay attention to them and they always love you back.",
+      "author": "John Green"
+    },
+    {
+      "quote": "Books are the carriers of civilization. Without books, history is silent, literature dumb, science crippled, thought and speculation at a standstill.",
+      "author": "Barbara W. Tuchman"
+    },
+    {
+      "quote": "Books are the treasured wealth of the world and the fit inheritance of generations and nations.",
+      "author": "Henry David Thoreau"
+    },
+    {
+      "quote": "Books are the bees which carry the quickening pollen from one to another mind.",
+      "author": "James Russell Lowell"
+    },
+    {
+      "quote": "Books are the mirrors of the soul.",
+      "author": "Virginia Woolf"
+    },
+    {
+      "quote": "Books are the plane, and the train, and the road. They are the destination and the journey. They are home.",
+      "author": "Anna Quindlen"
+    },
+    {
+      "quote": "Books are the blessed chloroform of the mind.",
+      "author": "Robert Chambers"
+    },
+    {
+      "quote": "Books are like a mirror. If an ass looks in, you can't expect an angel to look out.",
+      "author": "Arthur Schopenhauer"
+    },
+    {
+      "quote": "Books are the perfect entertainment: no commercials, no batteries, hours of enjoyment for each dollar spent. What I wonder is why everybody doesn’t carry a book around for those inevitable dead spots in life.",
+      "author": "Stephen King"
+    },
+    {
+      "quote": "Books are like a mirror. If an ass looks in, you can't expect an angel to look out.",
+      "author": "Arthur Schopenhauer"
+    },
+    {
+      "quote": "Books are the compasses and telescopes and sextants and charts which other men have prepared to help us navigate the dangerous seas of human life.",
+      "author": "Jesse Lee Bennett"
+    },
+    {
+      "quote": "Books are like mirrors: if a fool looks in, you cannot expect a genius to look out.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "quote": "Books are the ultimate escape.",
+      "author": "Alexandra Bracken"
+    },
+    {
+      "quote": "Books are like mirrors: if a fool looks in, you cannot expect a genius to look out.",
+      "author": "J.K. Rowling"
+    },
+    {
+      "quote": "Books are a uniquely portable magic.",
+      "author": "Stephen King"
+    },
+    {
+      "quote": "Books are the mirrors of the soul.",
+      "author": "Virginia Woolf"
+    },
+    {
+      "quote": "Books are the flowers of the imagination.",
+      "author": "Louisa May Alcott"
+    },
+    {
+      "quote": "Books are the perfect antidote to the loneliness of the human soul.",
+      "author": "Emma Thompson"
     }
-  ]
+]

@@ -1,0 +1,88 @@
+body{
+    font-family: futura-pt,Avenir,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    width: 100%;
+}
+
+ul{
+    margin: 0px;
+    height: 40px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar{
+    height: 40px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#logo img{
+    transform: rotate(180);
+    width: 40px;
+    height: auto;
+    position: relative;
+    top: 2px;
+    float: left;
+}
+
+#logo{
+    width: 60px;
+    display: inline-flex;
+}
+
+#explore{
+    width: 70px;
+    display: inline-flex;
+    position: relative;
+    margin-right: 5px;
+    margin-left: 5px;
+    bottom: 15px;
+    left: 850px;
+}
+
+#read{
+    width: 70px;
+    display: inline-flex;
+    position: relative;
+    margin-right: -10px;
+    margin-left: 5px;
+    bottom: 10px;
+    left: 870px;
+}
+
+#connect{
+    width: 70px;
+    display: inline-flex;
+    position: relative;
+    margin-right: 5px;
+    margin-left: -5px;
+    bottom: 10px;
+    left: 890px;
+}
+
+#workshop{
+    width: 70px;
+    display: inline-flex;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 5px;
+    bottom: 10px;
+    left: 900px;
+}
+
+#shop{
+    width: 70px;
+    display: inline-flex;
+    position: relative;
+    bottom: 10px;
+    color: #ff764d;
+    left: 940px;
+}
