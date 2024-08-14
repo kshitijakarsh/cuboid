@@ -374,11 +374,4 @@ li a{
     }
 }
 
-.rotatebook img::before{
-    left: 900px;
-}
-
-.rotatebook img::after{
-    left: 400px;
-}
 
