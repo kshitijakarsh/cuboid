@@ -318,13 +318,13 @@ li a{
     left: 25%;
 }
 
-.content7{
+.footer{
     margin-top: 200px;
     background-color: rgb(243, 243, 243);
     height: 600px;
 }
 
-.content7 h1{
+.footer h1{
     margin-top: 100px;
     font-size: 48px;
     position: absolute;
@@ -333,19 +333,19 @@ li a{
     text-shadow: 2px 2px 2px;
 }
 
-.content7 .logos{
+.footer .logos{
     position: relative;
     top: 150px;
     left: 6%;
 }
 
-.content7 .logos img{
+.footer .logos img{
     width: 40px;
     height: 40px;
     margin: 10px;
 }
 
-.content7 .buttons{
+.footer .buttons{
     position: relative;
     top: 220px;
     left: 7.8%;
