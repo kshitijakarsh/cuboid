@@ -175,7 +175,7 @@ li a{
 }
 
 .img1{
-    background-image: url(photo2.jpg);
+    background-image: url(/images/home/photo2.jpg);
     background-position: center;
     background-size: cover;
     width: 600px;
@@ -187,7 +187,7 @@ li a{
 }
 
 .img3{
-    background-image: url(pexels-caio-46274.jpg);
+    background-image: url(/images/home/pexels-caio-46274.jpg);
     background-position: center;
     background-size: cover;
     width: 460px;
@@ -265,7 +265,7 @@ li a{
 }
 
 .content5 > .img5{
-    background-image: url(img4.jpg);
+    background-image: url(/images/home/img4.jpg);
     background-position: center;
     background-size: cover;
     width: 520px;
@@ -276,7 +276,7 @@ li a{
 }
 
 .content5 > .img6{
-    background-image: url(img5.jpg);
+    background-image: url(/images/home/img5.jpg);
     background-position: center;
     background-size: cover;
     width: 520px;
@@ -287,7 +287,7 @@ li a{
 }
 
 .content5 > .img7{
-    background-image: url(img7.jpg);
+    background-image: url(/images/home/img7.jpg);
     background-position: center;
     background-size: cover;
     width: 560px;

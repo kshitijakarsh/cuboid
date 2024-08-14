@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuboid</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <nav class="navbar">
         <ul>
-            <li id="logo"><img src="../logo.png" alt="logo"></li>
-            <li id="explore"> <a href="../about-page/index.html" > Explore </a> </li>
+            <li id="logo"><img src="./images/common/logo.png" alt="logo"></li>
+            <li id="explore"> <a href="/about.html" > Explore </a> </li>
             <li id="read"> <a href="read-page/index.html"></a>Read </li>
             <li id="connect"> <a href="read-page/index.html"> </a>Connect </li>
             <li id="workshop"> <a href="read-page/index.html"></a> Workshops </li>
@@ -25,7 +25,7 @@
     </div>
 
     <div class="landing-photo">
-        <img src="landing-photo.jpg" alt="landing-photo">
+        <img src="/images/home/landing-photo.jpg" alt="landing-photo">
         <h1> CUBOID. </h1>
     </div>
 
@@ -51,7 +51,7 @@
     <div class="vidcont">
         <div class="vid1">
             <video width="680" height="400" loop autoplay muted>
-                <source src="book.mp4" type="video/mp4">
+                <source src="/images/home/book.mp4" type="video/mp4">
         </div>
     </div>
 
@@ -84,7 +84,7 @@
         </div>
 
         <div class="rotatebook">
-            <img src="rotate.png" alt="rotating book">
+            <img src="/images/home/rotate.png" alt="rotating book">
         </div>
 
         <div class="logos">
@@ -99,7 +99,7 @@
     <script>
         async function fetchQuote() {
         try {
-            const response = await fetch('../quotes.json');
+            const response = await fetch('/data/quotes.json');
             const quotes = await response.json();
             const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
             document.querySelector('.quote').innerText = `"${randomQuote.quote}"`;
