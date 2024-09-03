@@ -133,6 +133,10 @@ li a{
     background-color: #e65c3c;
 }
 
+.searchHelp{
+    text-align: center;
+}
+
 main {
     text-align: center;
     padding: 20px;
@@ -157,6 +161,8 @@ main {
     border-radius: 4px;
     object-fit: cover;
 }
+
+
 
 #bookDescription {
     font-size: 18px;
