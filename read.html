@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Explorer</title>
+    <link rel="stylesheet" href="css/read.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li id="logo"><img src="../images/common/logo.png" alt="logo"></li>
+            <li id="explore"><a href="/about.html">Explore</a></li>
+            <li id="read"><a href="read-page/index.html">Read</a></li>
+            <li id="connect"><a href="read-page/index.html">Connect</a></li>
+            <li id="workshop"><a href="read-page/index.html">Workshops</a></li>
+            <li id="shop"><a href="read-page/index.html">Shop</a></li>
+        </ul>
+    </nav>
+    <hr>
+    
+    <div class="searchBook">
+        <input type="text" id="bookSearch" placeholder="Search for a book...">
+        <button id="searchButton">Search</button>
+    </div>
+
+    <main id="resultsContainer" style="display: none;">
+        <section id="bookDetails">
+            <h2 id="bookTitle">Book Title</h2>
+            <div id="bookCover">
+                <img src="" alt="Book Cover">
+            </div>
+            <p id="bookDescription">Description</p>
+            <a id="shopButton" href="#" target="_blank">Shop Now</a>
+        </section>
+
+        <section id="authorDetails">
+            <h3 id="authorName">Author:</h3>
+            <h3>Author Works: </h3>
+            <div id="authorWorks"> 
+            </div>
+        </section>
+        
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

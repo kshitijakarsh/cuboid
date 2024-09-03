@@ -1,0 +1,210 @@
+body {
+    font-family: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0px;
+    height: 40px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.navbar{
+    height: 40px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#logo img{
+    transform: rotate(180);
+    width: 40px;
+    height: auto;
+    position: relative;
+    top: 2px;
+    float: left;
+}
+
+#logo{
+    width: 60px;
+    display: inline-flex;
+}
+
+#explore{
+    width: 70px;
+    display: inline-flex;
+    position: relative;
+    margin-right: 5px;
+    margin-left: 5px;
+    bottom: 15px;
+    left: 850px;
+}
+
+#read{
+    width: 70px;
+    display: inline-flex;
+    position: relative;
+    margin-right: -10px;
+    margin-left: 5px;
+    bottom: 14px;
+    left: 870px;
+}
+
+#connect{
+    width: 70px;
+    display: inline-flex;
+    position: relative;
+    margin-right: 5px;
+    margin-left: -5px;
+    bottom: 10px;
+    left: 890px;
+}
+
+#workshop{
+    width: 70px;
+    display: inline-flex;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 5px;
+    bottom: 10px;
+    left: 900px;
+}
+
+#shop{
+    width: 70px;
+    display: inline-flex;
+    position: relative;
+    bottom: 10px;
+    color: #ff764d;
+    left: 940px;
+}
+.searchBook {
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    padding: 5px;
+    max-width: 600px;
+    width: 100%;
+    margin: 20px auto; /* Centered and margin from top and bottom */
+}
+
+#bookSearch {
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#bookSearch:focus {
+    border-color: #ff764d;
+}
+
+#searchButton {
+    border: none;
+    background-color: #ff764d;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+#searchButton:hover {
+    background-color: #e65c3c;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+#bookDetails {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#bookTitle {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#bookCover img {
+    max-width: 500px; 
+    max-height: 700px; 
+    margin: 0 auto; 
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+#bookDescription {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#shopButton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff764d;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#shopButton:hover {
+    background-color: #e65c3c;
+}
+
+#authorDetails {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#authorWorks {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure items stay in a single row */
+    overflow: hidden; /* Hide overflow to remove scroll bar */
+    padding: 10px;
+    align-items: center; /* Center align items vertically */
+    gap: 10px; /* Space between images */
+    justify-content: center; /* Center the items horizontally */
+    max-width: calc(150px * 5 + 40px); /* 150px for each book cover and 40px for the gap */
+    margin: auto; /* Center the container */
+}
+
+.book-cover {
+    flex: 0 0 150px; /* Set fixed width for each book cover */
+    /* Ensure each item does not grow or shrink */
+}
+
+.book-cover img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    object-fit: cover;
+}
